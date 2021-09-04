@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:readmoreapp/pages/about.dart';
 import 'package:readmoreapp/pages/details.dart';
 
+import 'package:http/http.dart' as http; //as is alias name
+import 'dart:async';
+
 class HomePage extends StatefulWidget {
   //const HomePage({Key? key}) : super(key: key);
 
@@ -21,20 +24,22 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
           padding: EdgeInsets.all(20),
           child: FutureBuilder(
-            builder: (context, snapshot) {
-              var data =
-                  json.decode(snapshot.data.toString()); //data: list type
+            builder: (context, AsyncSnapshot snapshot) {
+              //var data = json.decode(snapshot.data.toString()); //data: list type
 
               return ListView.builder(
                 itemBuilder: (BuildContext context, int index) {
-                  return myBox(data[index]['title'], data[index]['subtitle'],
-                      data[index]['image_url'], data[index]['detail']);
+                  return myBox(
+                      snapshot.data[index]['title'],
+                      snapshot.data[index]['subtitle'],
+                      snapshot.data[index]['image_url'],
+                      snapshot.data[index]['detail']);
                 },
-                itemCount: data.length, //กำหนดจำนวนข้อมูล
+                itemCount: snapshot.data.length, //กำหนดจำนวนข้อมูล
               );
             },
-            future:
-                DefaultAssetBundle.of(context).loadString('assets/data.json'),
+            //future: DefaultAssetBundle.of(context).loadString('assets/data.json'),
+            future: getData(),
           )),
     );
   }
@@ -85,5 +90,15 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
     );
+  }
+
+  Future getData() async {
+    var url = Uri.https(
+        'raw.githubusercontent.com', '/sayanriwtong/BasicAPI/main/data.json');
+    var response = await http.get(url);
+
+    var result = json.decode(response.body);
+
+    return result;
   }
 }

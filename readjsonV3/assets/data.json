@@ -2,32 +2,26 @@
     {
         "title":"Kipo and the Age of Wonderbeasts",
         "subtitle":"This fantastical anime series follows Kipo Oak,",
-        "image_url":"https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Kipo_and_the_Age_of_Wonderbeasts.png/250px-Kipo_and_the_Age_of_Wonderbeasts.png",
+        "image_url":"https://raw.githubusercontent.com/sayanriwtong/BasicAPI/main/Kipo.png",
         "detail":"a 13-year-old girl forced to run away from the safety of an underground city to navigate the dangers of a dystopian world. The episodes are clever, creative, seriously weird and completely wonderful. If your kid has a taste for out-there sci-fi, this is the show for them. Season 2 drops in June 2020! Watch on Netflix. Ages 7 and up."
     },
     {
         "title":"Ask the StoryBots",
         "subtitle":"Straight talk: StoryBots is one of the best kid's shows around.",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVjpRXplU1Nsafz5EpCUSzOb9Mkn4_vL_KKw&usqp=CAU",
+        "image_url":"https://raw.githubusercontent.com/sayanriwtong/BasicAPI/main/StoryBots.jpg",
         "detail":"The episodes follow Beep, Boop, Bing, Bang and Bo as they set out to answer a question such as: How do eyes work? Why do we recycle? How do you catch a cold? The silly storytelling is goofy and fun, but the answers are serious and scientifically sound—no wonder it won multiple Emmy awards. The cameos are especially delightful for grownups: John Legend, 'Weird Al' Yankovic, Wanda Sykes, Snoop Dog. Watch on Netflix. Ages 3-8."
     },
     {
         "title":"Dora and Friends: Into The City",
         "subtitle":"Dora and Friends: Into the City is a popular series where the adopted theme revolves around problem-solving,",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNVlEXZrHDcXJbdj4-gJfo8OSXfZInWsVroA&usqp=CAU",
+        "image_url":"https://raw.githubusercontent.com/sayanriwtong/BasicAPI/main/PeppaPig.jpg",
         "detail":"ommunity service and friendship. Dora and her friends are portrayed as hardworking and ideal role models whose urge is to transform their hometown to a better place by trying desperately in their own small way. Kids relate to it better as Dora is shown in her school-age years and children love to emulate her in their real life."
     },
     {
         "title":"Sid the Science Kid",
         "subtitle":"Kids as young as four years old find it very fascinating discovering and learning about the world around them..",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR711D2-Q6vlJo00rzmdkUEsxiUbHI3H5O8zQ&usqp=CAU",
+        "image_url":"https://raw.githubusercontent.com/sayanriwtong/BasicAPI/main/ScienceKid.jpg",
         "detail":"The animated series, Sid the Science Kid is recommended for that age group to arouse curiosity and wonder in them. This urge and curiosity further changes to their love for science in their later age. The humour and music which heightens the impact, make the child inquisitive, thereby making them think while having fun. It hones their creativity too. So the time spent on watching it is finally a win-win."
-    },
-    {
-        "title":"Peppa Pig",
-        "subtitle":"Is there a pig snort out there more irresistible than Peppa's?",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7CHKZOTJTjAuQyCGaFM7X7uiV40m9ucJPQ&usqp=CAU",
-        "detail":"Our leading lady loves going on a fun adventure with her brother, George, introducing viewers to her friends like Polly Parrot and dressing to impress in a cool outfit—all while teaching little ones about friendship and compassion in the process."
     }
 
     
